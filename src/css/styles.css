@@ -18,3 +18,19 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.countryName {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 48px;
+  font-weight: bold;
+}
+.countryImg {
+  display: inline-block;
+  margin-right:25px;
+}
+.item{
+  font-weight: bold;
+}
+.itemS{font-weight: 400
+
+}
