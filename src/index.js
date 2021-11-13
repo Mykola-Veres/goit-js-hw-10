@@ -13,7 +13,7 @@ const countryInfo = document.querySelector(".country-info");
 
 function handlerInput(event) {
   event.preventDefault();  
-  const countryName = countryRequest.value;  
+  const countryName = countryRequest.value.trim();  
   fetchCountries(countryName).then(renderMarkap)
   .catch(showError)
   // .finally(() => countryRequest.reset());
