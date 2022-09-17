@@ -16,6 +16,7 @@
   "author": "Mykola-Veres <veresnickolay@gmail.com>",
   "license": "",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@vimeo/player": "^2.16.1",
     "handlebars": "^4.7.7",
     "lodash.throttle": "^4.1.1",
