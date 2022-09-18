@@ -38,9 +38,7 @@ function renderMarkap(countryUser) {
   }
 }
 
-const input1 = [4, 1, 3]; // 2
-const input2 = [2, 1, 5, 2, 7, 4, 10]; // 7
-const input3 = [2, 0, 1, 5, 2, 7]; // 6
+// Test amount - grain water
 
 function loadGrain(levels) {
   let maxLeftSide = levels[0];
@@ -69,26 +67,3 @@ console.log(loadGrain([2, 1, 5, 2, 7, 4, 10]));
 console.log(loadGrain([2, 4, 2]));
 console.log(loadGrain([7, 4]));
 console.log(loadGrain([]));
-
-// function loadGrain(levels) {
-//   let leftSide = levels[0];
-//   let rightSide = levels[levels.length - 1];
-
-//   let left = levels[1];
-//   let right = levels.length - 2;
-//   let totalGrain = 0;
-
-//   while (left <= right) {
-//     if (leftSide <= rightSide) {
-//       leftSide = maxLeft > height[left] ? maxLeft : height[left];
-//       totalGrain += leftSide - levels[left];
-//       left += 1;
-//     } else {
-//       rightSide = Math.max(rightSide, levels[right]);
-//       totalGrain += rightSide - levels[right];
-//       right -= 1;
-//     }
-//     return totalGrain;
-//   }
-// }
-// console.log('loadGrain', loadGrain(input1));
